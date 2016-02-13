@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="mario:war exploded">
+    <output-path>$PROJECT_DIR$/target/mario-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="mario" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="D:\ideagit\mario\target/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="mario/web/Web" />
+    </root>
+  </artifact>
+</component>
